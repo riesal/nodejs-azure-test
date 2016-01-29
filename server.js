@@ -4,7 +4,7 @@
 var express = require('express');
 var app = express();
 var port = process.env.PORT || 1337;
-var mongoose = require('mongoose');
+// var mongoose = require('mongoose');
 var passport = require('passport');
 var flash = require('connect-flash');
 var morgan = require('morgan');
@@ -16,7 +16,7 @@ var configDB = require('./config/database.js');
 // config
 // begin
 
-mongoose.connect(configDB.url);
+// mongoose.connect(configDB.url);
 // require('./config/passport')(passport);
 
 // setup express apps
