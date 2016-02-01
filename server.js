@@ -3,12 +3,8 @@
 
 var express = require('express');
 var app = express();
-<<<<<<< HEAD
 var port = process.env.PORT || 8002;
-=======
-var port = process.env.PORT || 1337;
 // var mongoose = require('mongoose');
->>>>>>> de87523b655f6e3f16046138adbd8560c1021d5a
 var passport = require('passport');
 var flash = require('connect-flash');
 var morgan = require('morgan');
