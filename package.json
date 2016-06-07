@@ -1,5 +1,6 @@
 {
   "name": "node-authentication",
+  "version": "1.0.0",
   "main": "server.js",
   "description": "whmcsLogin app dependencies",
   "dependencies": {
