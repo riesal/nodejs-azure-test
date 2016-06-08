@@ -8,7 +8,9 @@ RUN apt-get update && apt-get install -y \
     libxml2-dev \
     wget \
     apt-utils \
-    sudo
+    sudo \
+    vim.tiny
+    net-tools
 
 # fix the localisation
 RUN dpkg-reconfigure -f noninteractive tzdata
