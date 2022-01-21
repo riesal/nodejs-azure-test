@@ -9,7 +9,7 @@ RUN apt-get update && apt-get install -y \
     wget \
     apt-utils \
     sudo \
-    vim.tiny
+    vim.tiny \
     net-tools
 
 # fix the localisation
